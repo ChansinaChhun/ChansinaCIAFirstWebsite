@@ -1,2 +1,0 @@
-# ChansinaCIAFirstWebsite
-ICT PT
