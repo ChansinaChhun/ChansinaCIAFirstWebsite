@@ -1,0 +1,93 @@
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> Chansina Chhun's Performance Task</title>
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/cdaf42e025.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <section class="sub-header3">
+            <nav>
+                <a href="home.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="gallery.html">GALLERY</a></li>
+                        <li><a href="academic.html">ACADEMICS</a></li>
+                        <li><a href="contact.html">CONTACTS</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Gallery</h1>
+        </section>
+<section>
+    <div class="gallery">
+        <div class="gallery-slider">
+            <div class="slider">
+                <img id="slide-1" src="images/g1.jpg" alt="ima">
+                <img id="slide-2" src="images/g2.jpg" alt="ima">
+                <img id="slide-3" src="images/g3.jpg" alt="ima">
+                <img id="slide-4" src="images/g4.jpg" alt="ima">
+                <img id="slide-5" src="images/g5.jpg" alt="ima">
+                <img id="slide-6" src="images/g6.jpg" alt="ima">
+                <img id="slide-7" src="images/g7.jpg" alt="ima">
+                <img id="slide-8" src="images/g8.jpg" alt="ima">
+                <img id="slide-9" src="images/g9.png" alt="ima">
+                <img id="slide-10" src="images/g10.jpg" alt="ima">
+                <img id="slide-11" src="images/g11.jpg" alt="ima">
+                <img id="slide-12" src="images/g12.jpg" alt="ima">
+                <img id="slide-13" src="images/g13.jpg" alt="ima">
+                <img id="slide-14" src="images/g14.jpg" alt="ima">
+                <img id="slide-15" src="images/g15.jpg" alt="ima">
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+                <a href="#slide-5"></a>
+                <a href="#slide-6"></a>
+                <a href="#slide-7"></a>
+                <a href="#slide-8"></a>
+                <a href="#slide-9"></a>
+                <a href="#slide-10"></a>
+                <a href="#slide-11"></a>
+                <a href="#slide-12"></a>
+                <a href="#slide-13"></a>
+                <a href="#slide-14"></a>
+                <a href="#slide-15"></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>​CIA FIRST International School - No. 107, Street 2004, Phnom Penh, Kingdom of Cambodia © Copyright 2022</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-regular fa-envelope"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+</section>
+<!--Go Back Up-->
+<a class="gototopbtn" href="#"><i class="fa-solid fa-arrow-up"></i></a>
+<!--Toggle Menu in Media Screen-->
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200";
+    }
+</script>
+</body>
+</html>

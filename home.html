@@ -1,0 +1,130 @@
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> Chansina Chhun's Performance Task</title>
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/cdaf42e025.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <section class="header">
+            <nav>
+                <a href="home.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="gallery.html">GALLERY</a></li>
+                        <li><a href="academic.html">ACADEMICS</a></li>
+                        <li><a href="contact.html">CONTACTS</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        <div class="text-box">
+            <h1>CIA FIRST INTERNATIONAL SCHOOL</h1>
+            <p>CIA FIRST International School’s curriculum is unique and innovative. Piece by piece, the academic team has created a curricular program <br>that focuses on global competencies and 21st-century skills. By using the Understanding by Design Framework (UbD), and integrating the Habits of Mind (HoMs),<br> CIA FIRST student develops long-term and transferable understandings, which they can apply to real situations<br> and solve real-world problems (Schoolwide Learner Outcomes).</p>
+            <a href="about.html" class="visitbutton">Visit Us to Know More</a>
+        </div>
+        </section>
+<!--course-->
+<section class="why">
+    <h1>Why Choose CIA First</h1>
+    <div class="row">
+        <div class="why-col">
+            <img src="images/international.png">
+            <h3>40+</h3> 
+            <p>Nationalities across our  qualified and experienced faculty and student body</p>
+        </div>  
+        <div class="why-col">
+            <img src="images/coursework.png">
+            <h3>20+</h3> 
+            <p>Advanced Placement courses in Cambodia, allowing students to gain university credits whilst still in high school</p>
+        </div>  
+        <div class="why-col">
+            <img src="images/facilities.png">
+            <h3>3</h3> 
+            <p>Modern campuses in Sen Sok and Chbar Ampov, such as swimming pools, playgrounds, auditoriums, and more</p>
+        </div>  
+        <div class="why-col">
+            <img src="images/graduation.png">
+            <h3>15+</h3> 
+            <p>Countries such as the United States, Australia, Canada, and the United Kingdom, where our graduates have been admitted for university</p>
+        </div>  
+        <div class="why-col">
+            <img src="images/extracurriculars.png">
+            <h3>20+</h3> 
+            <p>Extra- and co-curricular activities across grade levels that complement the academic disciplines e.g. athletics, student government, and more</p>
+        </div>  
+    </div>
+</section>
+<!--American Aero Standards-->
+<section class="AAS">
+    <h1>American AERO Standards</h1>
+    <p>CIA FIRST adheres to a rigorous and balanced American curriculum in Cambodia that is directly aligned with the AERO and the US Common Core standards,
+         issued by the United States Department of Education. CIA FIRST has been awarded accreditation by the Western Association of Schools and Colleges (WASC) for grades PK – 12.
+          The Ministry of Education also gave authorization for our international high school diploma to be officially recognized as equivalent to the National Grade 12 Khmer curriculum diploma.</p>
+</section>
+<!--Campuses-->
+<section class="campus">
+    <h1>Our Campuses</h1>
+    <div class="row"> 
+        <div class="campus-col">
+            <img src="images/maincamp.jpg">
+            <div class="layer">
+                <h3>CIA FIRST SEN SOK (K3 - G8)</h3>  
+                <p>#107, Steet. 2004, Tek Thla, Khan Sen Sok, Phnom Penh, Cambodia.
+                    <br>Tel : 099 200 011 / 077 8000 12</p>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/highcamp.jpg">
+            <div class="layer">
+                <h3>CIA FIRST SEN SOK High School (G9 - G12)</h3>  
+                <p>#839, Street Doung Ngeab III, Khan Sen Sok, Phnom Penh, Cambodia.
+                    <br>Tel : 095200 011 / 069 400 011 / 077 8000 12 </p>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/chbarcamp.jpg">
+            <div class="layer">
+                <h3>CIA FIRST CHBAR AMPOV</h3>  
+                <p>Beung Chhuk Village, Sangkat Nirot, Khan Chbar Ampov, Phnom Penh, Cambodia
+                    <br>Tel : 077 861 333 / 077 862 333 /077 861 333</p>
+            </div>
+        </div>
+    </div> 
+</section>
+<!--Enroll Now-->
+<section class="contactus">
+    <h1>Enroll Now, Become a Member of CIA FIRST International School</h1>
+    <a href="contact.html" class="visitbutton">CONTACT US</a>
+</section>  
+<!--Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>​CIA FIRST International School - No. 107, Street 2004, Phnom Penh, Kingdom of Cambodia © Copyright 2022</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-regular fa-envelope"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+</section>
+<!--Go Back Up-->
+<a class="gototopbtn" href="#"><i class="fa-solid fa-arrow-up"></i></a>
+<!--Toggle Menu in Media Screen-->
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200";
+    }
+</script>
+</body>
+</html>

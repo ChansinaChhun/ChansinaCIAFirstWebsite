@@ -1,0 +1,120 @@
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> Chansina Chhun's Performance Task</title>
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/cdaf42e025.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <section class="sub-header4">
+            <nav>
+                <a href="home.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="gallery.html">GALLERY</a></li>
+                        <li><a href="academic.html">ACADEMICS</a></li>
+                        <li><a href="contact.html">CONTACTS</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Contact Us</h1>
+        </section>
+<!--Contact Us-->
+<!--Map-->
+<div class="row">
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.9922133628384!2d104.87404601168588!3d11.55241558860018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951b16cdc5b91%3A0xb87be4ad31f19c55!2sCIA%20FIRST%20International%20School!5e0!3m2!1sen!2skh!4v1686146536072!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.0704274782806!2d104.86321051168586!3d11.54680568860545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951f895a64d83%3A0x952f6b93a2ea10ac!2sCIA%20FIRST%20International%20School%20-%20High%20School!5e0!3m2!1sen!2skh!4v1686154805734!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.2205714042652!2d104.95071091168562!3d11.53602908861545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109571586df7111%3A0x9ca0d4d7909f99f7!2sCIA%20FIRST%20International%20School%20-%20Chbar%20Ampov%20Campus!5e0!3m2!1sen!2skh!4v1686154851665!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+</div>
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <span>
+                    <h5>Find Us at</h5>
+                    <p>CIA FIRST International School - Sen Sok 
+                        No. 107, Street 2004, Khan Sen Sok
+                        Phnom Penh, Kingdom of Cambodia
+                    <br><br>CIA FIRST International School - High School 
+                    No.839, Doung Ngeab Street,
+                    Phnom Penh, Kingdom of Cambodia
+                    <br><br>CIA FIRST International School - Chbar Ampov 
+                    Beung Chhuk Village, Sangkat Nirot
+                    Khan Chbar Ampov, Phnom Penh
+                    ​​Kingdom of Cambodia
+                    </p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5>Call Us at</h5>
+                    <p>CIA FIRST International School - Sen Sok
+                        <br>Phone: 099 2000 11 or 069 7000 11
+                        <br><br>CIA FIRST International School - High School
+                        <br>Phone: 077/070 861 333 or 077/070 862 333
+                        <br><br>CIA FIRST International School - Chbar Ampov
+                        <br>Phone: 077/070 861 333 or 077/070 862 333
+                    </p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-regular fa-envelope"></i>
+                <span>
+                    <h5>Email Us your Inquery</h5>
+                    <p>info@ciaschool.edu.kh or ​frontdesk@ciaschool.edu.kh
+                    </p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter Email Address" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea rows="8" name="message" placeholder="message"></textarea>
+                <button type="submit" class="visitbutton redbtn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+<!--Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>​CIA FIRST International School - No. 107, Street 2004, Phnom Penh, Kingdom of Cambodia © Copyright 2022</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-regular fa-envelope"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+</section>
+<!--Go Back Up-->
+<a class="gototopbtn" href="#"><i class="fa-solid fa-arrow-up"></i></a>
+<!--Toggle Menu in Media Screen-->
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200";
+    }
+</script>
+</body>
+</html>
